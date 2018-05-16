@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Posts</title>
+</head>
+<body>
+  <h1>This should show all posts</h1>
+  <% @posts.each do |post| %>
+    <h3><%= post.name %> </h3>
+    <p><%= post.content %></p>
+  <% end %>
+</body>
+</html>
