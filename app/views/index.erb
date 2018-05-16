@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<% Post.all.each do |post| %>
+	<p><a href="/posts/<%=post.id%>"><%= post.name %></a><br> <%= post.content %></p>
+<% end %>
+</body>
+</html>
