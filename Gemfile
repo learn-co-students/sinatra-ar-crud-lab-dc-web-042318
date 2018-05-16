@@ -22,4 +22,5 @@ group :development do
   gem "shotgun"
   gem "tux"
   gem "capybara"
+  gem "byebug"
 end
